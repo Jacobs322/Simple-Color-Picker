@@ -12,7 +12,7 @@ class colorPicker{
         this.startColor = 'red';
 
         var link = document.createElement('link');
-        link.href = 'color-picker-default.css';
+        link.href = 'simple-color-picker-default.css';
         link.rel = 'stylesheet';
         link.type = 'text/css';
 
