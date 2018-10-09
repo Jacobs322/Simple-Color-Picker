@@ -1,0 +1,20 @@
+#container{
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#displayColor{
+    
+    width: 100px;
+    height: 100px;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: .5s;
+    
+}
