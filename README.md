@@ -21,7 +21,7 @@ You can checkout how it looks on this JSFiddle [Demo](https://jsfiddle.net/Jacob
 
 ```javascript
 
-var color_picker = new colorPicker(Colors *Array*, Size *Int*, Padding X *INT*, Padding Y *INT*, CustomColors *Boolean*);
+var color_picker = new colorPicker(colors *Array*, size *Int*, paddingX *INT*, paddingY *INT*, customColors *Boolean*);
 
 ```
 
@@ -49,5 +49,27 @@ color_picker.start();
 var currentColor = color_picker.getColor();
 
 ```
+# Customization
+
+You can customize the looks of the color picker by changing the simple-color-picker.css file.
+
+# Methods and Attributes
+
+**1. colorPicker constructor**
+```javascript
+
+var color_picker = new colorPicker(colors *Array*, size *Int*, paddingX *INT*, paddingY *INT*, customColors *Boolean*);
+
+```
+colors = Array of colors in strings, either names, HEX codes, RGB
+size = width and height of a single square color element
+paddingX = space between colors on the X axis
+paddingY = space between colors on the Y axis
+*customColors* - will be added in the future
+
+**2. colorPicker.create()**
+
+
+
 
 
