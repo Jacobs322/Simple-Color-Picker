@@ -69,7 +69,15 @@ paddingY = space between colors on the Y axis
 
 **2. colorPicker.create()**
 
+Method for creating the color picker and displaying it
 
+**3. colorPicker.start()**
+
+Method for starting the color picker. It adds event listeners to the individual colors so you can choose between them
+
+**4. colorPicker.getColor()**
+
+Interface for getting the currently selected color. It returns one of the colors from the array you supplied
 
 
 
