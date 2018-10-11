@@ -7,7 +7,7 @@ You can checkout how it looks on this JSFiddle [Demo](https://jsfiddle.net/Jacob
 
 # Documentation
 
-1. Include simple-color-picker.js in the head of your html document
+1. Include simple-color-picker.js in the &lthead&gt of your html document
 2. In your body create a parent element for the color picker
 
 ```HTML
