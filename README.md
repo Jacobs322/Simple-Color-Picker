@@ -4,6 +4,7 @@ I've build a very simple color picker with plain javascript.
 It's very easy to implement and use!
 
 You can checkout how it looks on this JSFiddle [Demo](https://jsfiddle.net/Jacobs322/p8s19f5u/)
+Colors in the demo are not static. When creating the color picker you pass your own array of colors to be used :)
 
 # Documentation
 
